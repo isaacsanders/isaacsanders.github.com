@@ -2,7 +2,7 @@
   <head>
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="/public/stylesheets/site.css">
-    <title>{{ page.title }}</title>
+    <title>Page not found</title>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu|Allan:700' rel='stylesheet' type='text/css'>
     <script type="text/javascript">
 
@@ -20,13 +20,25 @@
   </head>
   <body>
     <header>
-      {% include header.html %}
+      <h1><a href="/">IBFS</a></h1><nav><h2>
+  <ul>
+    <a href="/"><li>Home</li></a>
+    <a href="/blog"><li>Blog</li></a>
+    <a href="/resume"><li>Resume</li></a>
+    <a href="/contact"><li>Contact</li></a>
+    <a href="/about"><li>About</li></a>
+  </ul>
+</h2>
+</nav>
+
     </header>
     <section>
-      {{ content }}
+      <h1>404</h1>
+Sorry, this page does not exist.
+
     </section>
     <footer>
-      {% include footer.html %}
+      
     </footer>
   </body>
 </html>

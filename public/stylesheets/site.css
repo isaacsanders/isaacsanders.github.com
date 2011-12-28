@@ -31,9 +31,10 @@ body {
       vertical-align: middle; }
       body header nav h2 {
         padding: 0;
-        margin: 0; }
+        margin: 0;
+        font-size: 2em; }
         body header nav h2 ul {
-          padding: 0;
+          padding: .25em;
           margin: 0; }
           body header nav h2 ul a {
             width: 12.361%;
@@ -63,10 +64,3 @@ body {
     font-family: 'Allan', cursive; }
     body h1 a, body h2 a, body h3 a, body h4 a, body h5 a, body h6 a {
       text-decoration: none; }
-
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  nav:before {
-    content: "iPad"; } }
-@media screen and (max-width: 768px) {
-  nav:before {
-    content: "iPhone"; } }

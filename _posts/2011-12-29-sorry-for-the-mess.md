@@ -11,7 +11,7 @@ On the front page, I think I like the content, but will be styling it a little d
 
 The blog will be a place for thoughts I have, and reflections of mine, so keep watch.
 I may decide to add an RSS feed or something depending on the feedback.
-I will try to incorporate something like Disqus for comments, and maybe some
+I <del>will try to incorporate something like Disqus for comments</del> have added Disqus, and maybe some
 social media buttons...
 
 The resume will contain things about my work history and education. Pretty

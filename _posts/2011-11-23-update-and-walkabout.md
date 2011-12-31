@@ -1,6 +1,8 @@
 ---
 layout: blog_post
 title: Update and Walkabout
+archive: true
+---
 
 It has been some time
 since I last posted. I have had a lot of wonderful things happen,

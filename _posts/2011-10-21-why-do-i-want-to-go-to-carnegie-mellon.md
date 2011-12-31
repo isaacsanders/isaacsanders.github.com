@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title: Why do I want to go to Carnegie Mellon?
 archive: true
 ---
@@ -25,7 +25,7 @@ in the country. I don't know of any other school that can boast the
 same quality of professors. I am attracted to the fact that the
 school provides its students with opportunities for learning
 outside of the classroom by joining with various technological
-“giants” such as Google, Apple, and Microsoft. For me, these are
+"giants" such as Google, Apple, and Microsoft. For me, these are
 not the most compelling reasons.
 
 Regardless of what I had heard, I

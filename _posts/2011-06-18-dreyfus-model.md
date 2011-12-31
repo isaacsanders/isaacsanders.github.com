@@ -1,6 +1,8 @@
 ---
 layout: blog_post
 title: Dreyfus Model of Skill Aquisition
+tags:
+- areas of continued improvement
 archive: true
 ---
 

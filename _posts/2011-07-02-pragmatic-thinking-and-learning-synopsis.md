@@ -1,6 +1,8 @@
 ---
 layout: blog_post
 title: Pragmatic Thinking and Learning Synopsis
+tags:
+- pragmatic thinking and learning
 archive: true
 ---
 

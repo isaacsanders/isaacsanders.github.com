@@ -6,6 +6,6 @@ title: Isaac Sanders's Blog
 <h1>Blog Posts</h1>
 <ul>
   {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }}: <a href="{{ post.url }}">{{ post.title }}</a>
+  <li>{% if post.archive %}[ARCHIVE] {% endif %}{{ post.date | date_to_string }}: <a href="{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
 </ul>

@@ -2,6 +2,11 @@
 layout: blog_post
 title: Introductions
 archive: true
+tags:
+- apprenticeship patterns
+- edgecase
+status: publish
+type: post
 ---
 
 Hello,

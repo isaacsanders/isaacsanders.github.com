@@ -1,6 +1,9 @@
 ---
 layout: blog_post
-title: Emptying your Cup
+title: Keeping an Empty Cup
+tags:
+- apprenticeship patterns
+- areas of continued improvement
 archive: true
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: blog_post
 title: Youth and The Long Road
+tags:
+- apprenticeship patterns
 archive: true
 ---
 

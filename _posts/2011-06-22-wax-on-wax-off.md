@@ -1,6 +1,8 @@
 ---
 layout: blog_post
 title: Wax on, Wax off
+tags:
+- areas of continued improvement
 archive: true
 ---
 

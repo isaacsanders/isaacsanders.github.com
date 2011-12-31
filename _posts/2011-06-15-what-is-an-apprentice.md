@@ -2,6 +2,9 @@
 layout: blog_post
 title: What is an Apprentice?
 archive: true
+tags:
+- apprenticeship patterns
+- pragmatic thinking and learning
 ---
 
 I know next to nothing about Development. So when I see people and projects

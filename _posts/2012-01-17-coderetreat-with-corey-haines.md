@@ -21,7 +21,7 @@ people like him in it.
 
 ##Session 1 (Ed)
 
-The first session I paired with Ed. Ed normally does .NET and #C, and I normally
+The first session I paired with Ed. Ed normally does .NET and C#, and I normally
 do Ruby, but we were able to work well together in JavaScript using
 [tryjasmine.com](http://tryjasmine.com). While we deleted the code (and tests) half
 way through to start again, we still had a great time and it gave a great start

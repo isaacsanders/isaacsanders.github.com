@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>{{page.title}}{% if page.archive %} [ARCHIVE]</h1>{% else %}</h1>{% endif %}
-<i>by Isaac Sanders</i>
+<i>by {% if page.author %}{{page.author}}{% else %}Isaac Sanders{% endif %}</i>
 <article>{{content}}</article>
 <div id="disqus_thread"></div>
 <script type="text/javascript">

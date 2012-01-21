@@ -1,8 +1,8 @@
 ---
 layout: blog_post
 title: Equity
+author: Joel Spolsky
 ---
-
 
 This is such a common question here and elsewhere that I will attempt to write
 the world's most canonical answer to this question. Hopefully in the future

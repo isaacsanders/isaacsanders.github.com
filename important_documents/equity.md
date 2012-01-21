@@ -1,3 +1,9 @@
+---
+layout: blog_post
+title: Equity
+---
+
+
 This is such a common question here and elsewhere that I will attempt to write
 the world's most canonical answer to this question. Hopefully in the future
 when someone on answers.onstartups asks how to split up the ownership of their

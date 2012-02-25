@@ -31,6 +31,9 @@ who care about the quality of discussion. When we lose focus and focus our
 strength on being disappointed, we become just as bad as they are. If there is
 even a "they" that we aren't.
 
+Before this next section, please understand that I only want people to consider
+what I say. It is not me saying that what I say is gospel.
+
 ##&lt;rant name="youth"&gt;
 
 We can't blame the issues of our community on the youth. When we are younger it

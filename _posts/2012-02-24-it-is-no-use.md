@@ -7,7 +7,7 @@ I am have been seeing a lot of people complaining about commenters on various
 new aggregators. They are not happy with the ignorance and prejudice of the
 comments. Some have chosen to think that this means that our entire community is
 poisoned, and others believe it shows that the youth will be the end of educated
-soceity.
+society.
 
 ##Root of the Cause
 

@@ -6,7 +6,8 @@ title: It is No Use
 I am have been seeing a lot of people complaining about commenters on various
 new aggregators. They are not happy with the ignorance and prejudice of the
 comments. Some have chosen to think that this means that our entire community is
-poisoned, and others believe that the youth will be the end of educated soceity.
+poisoned, and others believe it shows that the youth will be the end of educated
+soceity.
 
 ##Root of the Cause
 
@@ -17,10 +18,9 @@ others who believe that treating others well doesn't matter, so as a rule they
 don't. I think that it is pointless to worry if there are productive and
 intelligent discussions happening on any of these sites. The more productive
 discussion will happen between people who hold each other accountable, and those
-are the discussions that we should be listening to. If you are a person who says
-inflammatory things, it doesn't matter in the long run, because if you want to
-actually influence things, you would be representing them with your whole
-person.
+are the discussions that we should be listening to. If you say inflammatory
+things, it doesn't matter in the long run. If you want to influence things, you
+should be representing your beliefs with your whole person.
 
 ##What about the Community?
 

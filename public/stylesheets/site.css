@@ -46,7 +46,7 @@ body {
               color: #99c6f2;
               text-shadow: #99c6f2 0 0 0.125em; }
   body header, body footer {
-    position: fixed;
+    position: relative;
     height: 3em;
     background-color: #333;
     box-shadow: 0 0 .25em .25em black;

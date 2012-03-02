@@ -95,6 +95,7 @@ body {
   }
 
   section {
+    height: 100%;
     padding: 2em;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -102,13 +103,15 @@ body {
     top: 0;
     bottom: 0;
     background-color: #eee;
+    overflow: auto;
     box-shadow: 0 0 .125em .125em #0b345d, inset 0 0 .125em .125em #ddd;
   }
 
   #content {
     height: 100%;
-    overflow: scroll;
+    overflow: hidden;
     margin: 0 auto;
+    bottom: 0;
     width: 61.8033989%;
   }
 

@@ -1,5 +1,6 @@
 ---
 ---
+
 @mixin even_spread ($width, $count) {
   width: $width / $count
 }
@@ -11,21 +12,22 @@
 
 body {
   position: absolute;
-  height: 100%;
   width: 100%;
+  bottom: 0;
+  top: 0;
   padding: 0;
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
   background-color: #0c355e;
 
   header {
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     font-color: #ddd;
 
     h1 {
       position: absolute;
-      right: 61.8033989% + 19.0983006%;
+      width: 19.0983006%;
       font-size: 3em;
       margin: 0;
 
@@ -49,6 +51,7 @@ body {
 
 
       h2 {
+        top: 0;
         padding: 0;
         margin: 0;
         font-size: 2em;
@@ -73,25 +76,40 @@ body {
     }
   }
 
+  #logo {
+    text-align: right;
+  }
+
   header, footer {
-    position: relative;
+    position: absolute;
     height: 3em;
+    left: 0;
+    right: 0;
     background-color: #333;
     box-shadow: 0 0 .25em .25em black;
     z-index: 1;
   }
 
   footer {
-    bottom: 100%;
+    bottom: 0;
   }
 
   section {
     padding: 2em;
-    position: relative;
-    width: 61.8033989%;
-    left: 19.0983006%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    // position: absolute;
+    top: 0;
+    bottom: 0;
     background-color: #eee;
     box-shadow: 0 0 .125em .125em #0b345d, inset 0 0 .125em .125em #ddd;
+  }
+
+  #content {
+    height: 100%;
+    overflow: scroll;
+    margin: 0 auto;
+    width: 61.8033989%;
   }
 
   h1, h2, h3, h4, h5, h6 {

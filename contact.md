@@ -10,4 +10,4 @@ will respond ASAP.
 
 __Twitter__: [@isaacsanders](http://twitter.com/isaacsanders)
 
-__Email__: [isaac@__DOMAIN__](mailto:isaac@isaacbfsanders.com)
+__Email__: [isaac@isaacbfsanders.com](mailto:isaac@isaacbfsanders.com)

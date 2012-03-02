@@ -1,3 +1,5 @@
+---
+---
 @mixin even_spread ($width, $count) {
   width: $width / $count
 }
@@ -80,7 +82,7 @@ body {
   }
 
   footer {
-    bottom: 0px;
+    bottom: 100%;
   }
 
   section {

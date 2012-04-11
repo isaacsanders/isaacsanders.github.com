@@ -55,16 +55,13 @@ body {
         padding: 0;
         margin: 0;
         font-size: 2em;
+        @include even_spread(61.8033989%, 5);
+        position: relative;
+        display: table-cell;
+        padding: .25em;
 
         a {
-          padding: .25em;
-          margin: 0;
-          @include even_spread(61.8033989%, 5);
           color: #ddd;
-          position: relative;
-          display: table-cell;
-          list-style: none;
-
           &:hover {
             @include text_glow(#99c6f2);
           }

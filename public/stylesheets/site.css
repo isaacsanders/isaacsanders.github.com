@@ -68,7 +68,7 @@ body {
     overflow: auto;
     box-shadow: 0 0 .125em .125em #0b345d, inset 0 0 .125em .125em #ddd; }
     body section article {
-      padding-bottom: 35em; }
+      padding-bottom: 5em; }
   body #content {
     height: 100%;
     overflow: hidden;

@@ -5,7 +5,7 @@ layout: blog_post
 
 ##Rails Has Issues.
 
-No, seriously. As of May 4th, 2012, there are 613 open issues on Rails. This is
+No, seriously. As of May 7th, 2012, there are 572 open issues on Rails. This is
 not a negative reflection on the core team, nor is is something that they can
 change, without stopping their ongoing work on Rails. They could drop all of the
 issues in what is called "Issue Bankruptcy." This raises a couple of its own
@@ -48,7 +48,7 @@ writing a failing test that illustrates that issue, or sending a Pull Request.
 
 ###Patches (Pull Requests)
 
-Pull Requests are common in Rails Issues. As of May 4th, there are 226 open Pull
+Pull Requests are common in Rails Issues. As of May 7th, there are 215 open Pull
 Requests, more than a third of the open issues. When triaging Pull Requests, it
 is best to see if anyone has any thoughts about it, usually by getting the
 attention (by @'ing them in a comment) of a member or two of the core team, or

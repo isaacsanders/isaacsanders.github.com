@@ -1,4 +1,4 @@
 run:
 	jekyll --server --auto
 new:
-	vim `date "+%Y-%m-%d"-`$(post).md
+	vim _posts/`date "+%Y-%m-%d"-`$(post).md

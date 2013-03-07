@@ -1,3 +1,8 @@
+---
+title: College and Internships
+layout: blog_post
+---
+
 My freshman year of college only has ten more weeks before it is over. It has
 been an amazing experience. I am glad that I chose to go to school, and that my
 parents encouraged me to do so. To everyone who encouraged me to forego formal

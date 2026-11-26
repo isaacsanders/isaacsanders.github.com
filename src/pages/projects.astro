@@ -1,0 +1,112 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Projects · Isaac Sanders">
+  <article>
+<h1>Open Source Contributions</h1>
+<section id='reuser'>
+  <h2>ReUser</h2>
+  <p>
+    ReUser is a RubyGem that makes authorization easy.
+    The DSL was designed with the help of <a href="http://hogue.org">Jon Hogue</a>.
+  </p>
+  <p>
+    <a href="http://github.com/isaacsanders/reuser">Source</a> --
+    <a href="/reuser">Homepage</a>
+  </p>
+</section>
+
+<section id='diaspora'>
+  <h2>Diaspora</h2>
+  <p>
+    Diaspora is an open source social network.
+    My contribution to this was small, but it was my first contribution.
+    I hope the Diaspora project has continued success, and I hope to
+    contribute again someday.
+  </p>
+  <p>
+    <a href="http://github.com/diaspora/diaspora">Source</a> --
+    <a href="http://www.joindiaspora.com">Homepage</a>
+  </p>
+</section>
+
+<section id='flamethrower'>
+  <h2>Flamethrower</h2>
+  <p>
+    Simple node.js app to monitor a Campfire room and relay each post to another
+    HTTP endpoint (from the repository's Github).
+  </p>
+  <p>
+    I helped to convert Flamethrower from using the user's name as the data posted
+    to using the user's Campfire ID. I also implemented support for TextMessages
+    and PasteMessages (descriptions are available on
+    <a href="http://developer.37signals.com/campfire/">37signals' developer site</a>).
+  </p>
+  <p>
+    <a href="http://github.com/edgecase/flamethrower">Source</a>
+  </p>
+</section>
+
+<section id='githubris'>
+  <h2>Githubris</h2>
+  <p>
+    Githubris is a Ruby wrapper around the GitHub v3 API. Its purpose is to
+    provide a familiar DSL for interacting with the API.
+  </p>
+  <p>
+    I am the author of Githubris, along with object design assistance from Zee
+    Spencer.
+  </p>
+  <p>
+    <a href="http://github.com/isaacsanders/githubris">Source</a>
+  </p>
+</section>
+
+<section id='httparty'>
+  <h2>HTTParty</h2>
+  <p>
+    HTTParty is an HTTP client library that provides a simple way to access
+    JSON, XML, HTML, and YAML HTTP APIs.
+  </p>
+  <p>
+    I added the HTTP method PATCH to HTTParty, as part of my work on Githubris.
+  </p>
+  <p>
+    <a href="https://github.com/jnunemaker/httparty">Source</a>
+    <a href="http://johnnunemaker.com/httparty/">Homepage</a>
+  </p>
+</section>
+
+<section id='rails'>
+  <h2>Rails</h2>
+  <p>
+    Ruby on Rails is a full-stack web framework in Ruby.
+  </p>
+  <p>
+    I have helped with triaging Rails Issues.
+  </p>
+  <p>
+    <a href="http://github.com/rails/rails">Source</a>
+    <a href="http://rubyonrails.org">Homepage</a>
+  </p>
+</section>
+
+<section id='nulldb'>
+  <h2>NullDB</h2>
+  <p>
+    NullDB is the Null Object pattern as applied to ActiveRecord database
+    adapters. It is a database backend that translates database interactions
+    into no-ops. Using NullDB enables you to test your model business logic -
+    including after_save hooks - without ever touching a real database.
+  </p>
+  <p>
+    I have recently joined the NullDB team. I am excited to work with the team
+    and take this project into the future!
+  </p>
+  <p>
+    <a href="http://github.com/nulldb/nulldb">Source</a>
+  </p>
+</section>
+  </article>
+</Base>

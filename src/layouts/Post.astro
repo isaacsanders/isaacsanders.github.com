@@ -1,0 +1,44 @@
+---
+import Base from './Base.astro';
+import { formatDate, isoDate } from '../lib/paths';
+
+interface Link { href: string; title: string }
+interface Props {
+  title: string;
+  date: Date;
+  author?: string;
+  description?: string;
+  tags?: string[];
+  archived?: boolean;
+  newer?: Link;
+  older?: Link;
+}
+
+const { title, date, author, description, tags = [], archived = false, newer, older } = Astro.props;
+---
+
+<Base title={`${title} · Isaac Sanders`} description={description}>
+  <article>
+    <header class="post-header">
+      <h1>{title}</h1>
+      <p class="meta">
+        <time datetime={isoDate(date)}>{formatDate(date)}</time>
+        {author && <> · {author}</>}
+        {tags.length > 0 && <> · {tags.join(', ')}</>}
+      </p>
+    </header>
+    {archived && (
+      <p class="archive-note">
+        From the <a href="/archive/">archive</a>: I wrote this between 2011 and 2013, in
+        high school and college. It's kept as I wrote it.
+      </p>
+    )}
+    <slot />
+  </article>
+  {(older || newer) && (
+    <nav class="post-nav" aria-label="More posts">
+      {older && <a class="older" href={older.href}><span>Older</span>{older.title}</a>}
+      {newer && <a class="next" href={newer.href}><span>Newer</span>{newer.title}</a>}
+    </nav>
+  )}
+</Base>

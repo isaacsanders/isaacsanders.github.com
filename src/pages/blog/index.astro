@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { getPosts } from '../../lib/posts';
+
+const posts = await getPosts();
+---
+
+<Base title="Writing · Isaac Sanders">
+  <h1>Writing</h1>
+  {posts.length > 0
+    ? <PostList posts={posts} />
+    : <p class="empty">New writing is coming soon.</p>}
+  <p>Older posts, from high school and college, are in the <a href="/archive/">archive</a>.</p>
+</Base>

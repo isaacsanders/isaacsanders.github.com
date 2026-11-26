@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { getArchive } from '../../lib/posts';
+
+const archive = await getArchive();
+const years = [...new Set(archive.map((p) => p.date.getUTCFullYear()))];
+---
+
+<Base title="Archive · Isaac Sanders" description="Posts Isaac Sanders wrote from 2011 to 2013, in high school and college.">
+  <h1>Archive</h1>
+  <p class="intro">
+    I wrote these between 2011 and 2013. They start in June 2011, right after my junior
+    year of high school, when I began a software apprenticeship at EdgeCase, and they
+    run into college. They're kept here as I wrote them.
+    My page on <a href="/craft/">software craftsmanship</a> is from the same period.
+  </p>
+  {years.map((year) => (
+    <section>
+      <h2 class="section-title">{year}</h2>
+      <PostList posts={archive.filter((p) => p.date.getUTCFullYear() === year)} />
+    </section>
+  ))}
+</Base>

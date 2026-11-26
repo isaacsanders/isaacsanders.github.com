@@ -1,0 +1,18 @@
+---
+import { formatDate, isoDate } from '../lib/paths';
+
+interface Props {
+  posts: { href: string; title: string; date: Date }[];
+}
+
+const { posts } = Astro.props;
+---
+
+<ul class="post-list">
+  {posts.map(({ href, title, date }) => (
+    <li>
+      <a href={href}>{title}</a>
+      <time datetime={isoDate(date)}>{formatDate(date, 'short')}</time>
+    </li>
+  ))}
+</ul>

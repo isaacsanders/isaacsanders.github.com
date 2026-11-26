@@ -1,2 +1,0 @@
-server_port: 3000
-permalink: /blog/:year/:month/:day/:title

@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import { getArchive, getPosts } from '../lib/posts';
+
+const posts = await getPosts();
+const archive = await getArchive();
+---
+
+<Base title="Isaac Sanders">
+  <p class="intro">
+    Hi, I'm Isaac Sanders. This is where I write. New posts will appear below, and
+    the <a href="/archive/">archive</a> keeps what I wrote in high school and college.
+  </p>
+
+  <h2 class="section-title">Writing</h2>
+  {posts.length > 0
+    ? <PostList posts={posts} />
+    : <p class="empty">New writing is coming soon.</p>}
+
+  <h2 class="section-title">From the archive, 2011–2013</h2>
+  <PostList posts={archive.slice(0, 5)} />
+  <p><a href="/archive/">All {archive.length} archived posts →</a></p>
+</Base>

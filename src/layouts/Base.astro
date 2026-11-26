@@ -1,0 +1,53 @@
+---
+import '../styles/site.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'The personal site and writing of Isaac Sanders.' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const nav = [
+  { href: '/blog/', label: 'Writing' },
+  { href: '/archive/', label: 'Archive' },
+  { href: '/projects/', label: 'Projects' },
+  { href: '/contact/', label: 'Contact' },
+];
+const here = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="site-title" href="/">Isaac Sanders</a>
+      <nav aria-label="Main">
+        <ul>
+          {nav.map(({ href, label }) => (
+            <li><a href={href} aria-current={here.startsWith(href) ? 'page' : undefined}>{label}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+    <main id="content" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer wrap">
+      <p>© {new Date().getFullYear()} Isaac Sanders · <a href="/archive/">Archive</a> · <a href="/contact/">Contact</a></p>
+    </footer>
+  </body>
+</html>
